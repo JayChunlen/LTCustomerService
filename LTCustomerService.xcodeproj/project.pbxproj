@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF361DE61D2CE1F400909174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF361DE51D2CE1F400909174 /* main.m */; };
+		CF361DE91D2CE1F400909174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF361DE81D2CE1F400909174 /* AppDelegate.m */; };
+		CF361DEC1D2CE1F400909174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF361DEB1D2CE1F400909174 /* ViewController.m */; };
+		CF361DEF1D2CE1F400909174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF361DED1D2CE1F400909174 /* Main.storyboard */; };
+		CF361DF11D2CE1F400909174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF361DF01D2CE1F400909174 /* Assets.xcassets */; };
+		CF361DF41D2CE1F400909174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF361DF21D2CE1F400909174 /* LaunchScreen.storyboard */; };
+		CF361DFF1D2CE1F400909174 /* LTCustomerServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF361DFE1D2CE1F400909174 /* LTCustomerServiceTests.m */; };
+		CF361E0A1D2CE1F400909174 /* LTCustomerServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF361E091D2CE1F400909174 /* LTCustomerServiceUITests.m */; };
+		CF361E191D2CE2B900909174 /* RCDCustomerServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF361E181D2CE2B900909174 /* RCDCustomerServiceViewController.m */; };
+		CF361E1F1D2CE51800909174 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E1E1D2CE51800909174 /* libsqlite3.tbd */; };
+		CF361E231D2CE70700909174 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E221D2CE70700909174 /* AssetsLibrary.framework */; };
+		CF361E251D2CE71000909174 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E241D2CE71000909174 /* AudioToolbox.framework */; };
+		CF361E271D2CE71700909174 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E261D2CE71700909174 /* AVFoundation.framework */; };
+		CF361E291D2CE71D00909174 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E281D2CE71D00909174 /* CFNetwork.framework */; };
+		CF361E2B1D2CE72600909174 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E2A1D2CE72600909174 /* CoreAudio.framework */; };
+		CF361E2D1D2CE72F00909174 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E2C1D2CE72F00909174 /* CoreGraphics.framework */; };
+		CF361E2F1D2CE73F00909174 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E2E1D2CE73F00909174 /* CoreLocation.framework */; };
+		CF361E311D2CE74900909174 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E301D2CE74900909174 /* CoreMedia.framework */; };
+		CF361E331D2CE75500909174 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E321D2CE75500909174 /* CoreTelephony.framework */; };
+		CF361E351D2CE75D00909174 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E341D2CE75D00909174 /* CoreVideo.framework */; };
+		CF361E371D2CE76500909174 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E361D2CE76500909174 /* ImageIO.framework */; };
+		CF361E391D2CE77300909174 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E381D2CE77300909174 /* libc++.tbd */; };
+		CF361E3B1D2CE77F00909174 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E3A1D2CE77F00909174 /* libc++abi.tbd */; };
+		CF361E3D1D2CE78F00909174 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E3C1D2CE78F00909174 /* libstdc++.tbd */; };
+		CF361E3F1D2CE79900909174 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E3E1D2CE79900909174 /* libxml2.tbd */; };
+		CF361E411D2CE7A400909174 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E401D2CE7A400909174 /* libz.tbd */; };
+		CF361E431D2CE7AA00909174 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E421D2CE7AA00909174 /* MapKit.framework */; };
+		CF361E451D2CE7B300909174 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E441D2CE7B300909174 /* OpenGLES.framework */; };
+		CF361E471D2CE7C000909174 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E461D2CE7C000909174 /* QuartzCore.framework */; };
+		CF361E491D2CE7C700909174 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E481D2CE7C700909174 /* SystemConfiguration.framework */; };
+		CF361E4B1D2CE7CE00909174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E4A1D2CE7CE00909174 /* UIKit.framework */; };
+		CF361E571D2CE86300909174 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF361E4D1D2CE86300909174 /* Emoji.plist */; };
+		CF361E581D2CE86300909174 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF361E4E1D2CE86300909174 /* RongCloudKit.strings */; };
+		CF361E591D2CE86300909174 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E501D2CE86300909174 /* libopencore-amrnb.a */; };
+		CF361E5A1D2CE86300909174 /* RCConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF361E511D2CE86300909174 /* RCConfig.plist */; };
+		CF361E5B1D2CE86300909174 /* release_notes_ios.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF361E521D2CE86300909174 /* release_notes_ios.txt */; };
+		CF361E5C1D2CE86300909174 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF361E531D2CE86300909174 /* RongCloud.bundle */; };
+		CF361E5D1D2CE86300909174 /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E541D2CE86300909174 /* RongIMKit.framework */; };
+		CF361E5E1D2CE86400909174 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF361E551D2CE86300909174 /* RongIMLib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF361DFB1D2CE1F400909174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF361DD91D2CE1F400909174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF361DE01D2CE1F400909174;
+			remoteInfo = LTCustomerService;
+		};
+		CF361E061D2CE1F400909174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF361DD91D2CE1F400909174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF361DE01D2CE1F400909174;
+			remoteInfo = LTCustomerService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF361DE11D2CE1F400909174 /* LTCustomerService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTCustomerService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF361DE51D2CE1F400909174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF361DE71D2CE1F400909174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF361DE81D2CE1F400909174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF361DEA1D2CE1F400909174 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF361DEB1D2CE1F400909174 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF361DEE1D2CE1F400909174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF361DF01D2CE1F400909174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF361DF31D2CE1F400909174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF361DF51D2CE1F400909174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF361DFA1D2CE1F400909174 /* LTCustomerServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTCustomerServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF361DFE1D2CE1F400909174 /* LTCustomerServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCustomerServiceTests.m; sourceTree = "<group>"; };
+		CF361E001D2CE1F400909174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF361E051D2CE1F400909174 /* LTCustomerServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTCustomerServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF361E091D2CE1F400909174 /* LTCustomerServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCustomerServiceUITests.m; sourceTree = "<group>"; };
+		CF361E0B1D2CE1F400909174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF361E171D2CE2B900909174 /* RCDCustomerServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDCustomerServiceViewController.h; sourceTree = "<group>"; };
+		CF361E181D2CE2B900909174 /* RCDCustomerServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDCustomerServiceViewController.m; sourceTree = "<group>"; };
+		CF361E1E1D2CE51800909174 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CF361E221D2CE70700909174 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CF361E241D2CE71000909174 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF361E261D2CE71700909174 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF361E281D2CE71D00909174 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF361E2A1D2CE72600909174 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		CF361E2C1D2CE72F00909174 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF361E2E1D2CE73F00909174 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF361E301D2CE74900909174 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CF361E321D2CE75500909174 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CF361E341D2CE75D00909174 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CF361E361D2CE76500909174 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		CF361E381D2CE77300909174 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CF361E3A1D2CE77F00909174 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		CF361E3C1D2CE78F00909174 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		CF361E3E1D2CE79900909174 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		CF361E401D2CE7A400909174 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CF361E421D2CE7AA00909174 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CF361E441D2CE7B300909174 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CF361E461D2CE7C000909174 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF361E481D2CE7C700909174 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF361E4A1D2CE7CE00909174 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF361E4D1D2CE86300909174 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		CF361E4F1D2CE86300909174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
+		CF361E501D2CE86300909174 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		CF361E511D2CE86300909174 /* RCConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RCConfig.plist; sourceTree = "<group>"; };
+		CF361E521D2CE86300909174 /* release_notes_ios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes_ios.txt; sourceTree = "<group>"; };
+		CF361E531D2CE86300909174 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
+		CF361E541D2CE86300909174 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMKit.framework; sourceTree = "<group>"; };
+		CF361E551D2CE86300909174 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
+		CF361E561D2CE86300909174 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RongCloudKit.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF361DDE1D2CE1F400909174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF361E4B1D2CE7CE00909174 /* UIKit.framework in Frameworks */,
+				CF361E491D2CE7C700909174 /* SystemConfiguration.framework in Frameworks */,
+				CF361E471D2CE7C000909174 /* QuartzCore.framework in Frameworks */,
+				CF361E451D2CE7B300909174 /* OpenGLES.framework in Frameworks */,
+				CF361E431D2CE7AA00909174 /* MapKit.framework in Frameworks */,
+				CF361E411D2CE7A400909174 /* libz.tbd in Frameworks */,
+				CF361E3F1D2CE79900909174 /* libxml2.tbd in Frameworks */,
+				CF361E3D1D2CE78F00909174 /* libstdc++.tbd in Frameworks */,
+				CF361E3B1D2CE77F00909174 /* libc++abi.tbd in Frameworks */,
+				CF361E391D2CE77300909174 /* libc++.tbd in Frameworks */,
+				CF361E371D2CE76500909174 /* ImageIO.framework in Frameworks */,
+				CF361E5D1D2CE86300909174 /* RongIMKit.framework in Frameworks */,
+				CF361E351D2CE75D00909174 /* CoreVideo.framework in Frameworks */,
+				CF361E591D2CE86300909174 /* libopencore-amrnb.a in Frameworks */,
+				CF361E331D2CE75500909174 /* CoreTelephony.framework in Frameworks */,
+				CF361E311D2CE74900909174 /* CoreMedia.framework in Frameworks */,
+				CF361E2F1D2CE73F00909174 /* CoreLocation.framework in Frameworks */,
+				CF361E2D1D2CE72F00909174 /* CoreGraphics.framework in Frameworks */,
+				CF361E2B1D2CE72600909174 /* CoreAudio.framework in Frameworks */,
+				CF361E291D2CE71D00909174 /* CFNetwork.framework in Frameworks */,
+				CF361E271D2CE71700909174 /* AVFoundation.framework in Frameworks */,
+				CF361E5E1D2CE86400909174 /* RongIMLib.framework in Frameworks */,
+				CF361E251D2CE71000909174 /* AudioToolbox.framework in Frameworks */,
+				CF361E231D2CE70700909174 /* AssetsLibrary.framework in Frameworks */,
+				CF361E1F1D2CE51800909174 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF361DF71D2CE1F400909174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF361E021D2CE1F400909174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF361DD81D2CE1F400909174 = {
+			isa = PBXGroup;
+			children = (
+				CF361DE31D2CE1F400909174 /* LTCustomerService */,
+				CF361DFD1D2CE1F400909174 /* LTCustomerServiceTests */,
+				CF361E081D2CE1F400909174 /* LTCustomerServiceUITests */,
+				CF361DE21D2CE1F400909174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF361DE21D2CE1F400909174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF361DE11D2CE1F400909174 /* LTCustomerService.app */,
+				CF361DFA1D2CE1F400909174 /* LTCustomerServiceTests.xctest */,
+				CF361E051D2CE1F400909174 /* LTCustomerServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF361DE31D2CE1F400909174 /* LTCustomerService */ = {
+			isa = PBXGroup;
+			children = (
+				CF361E4C1D2CE86300909174 /* Rong_Cloud_iOS_IMKit_SDK_v2_6_5_stable */,
+				CF361E4A1D2CE7CE00909174 /* UIKit.framework */,
+				CF361E481D2CE7C700909174 /* SystemConfiguration.framework */,
+				CF361E461D2CE7C000909174 /* QuartzCore.framework */,
+				CF361E441D2CE7B300909174 /* OpenGLES.framework */,
+				CF361E421D2CE7AA00909174 /* MapKit.framework */,
+				CF361E401D2CE7A400909174 /* libz.tbd */,
+				CF361E3E1D2CE79900909174 /* libxml2.tbd */,
+				CF361E3C1D2CE78F00909174 /* libstdc++.tbd */,
+				CF361E3A1D2CE77F00909174 /* libc++abi.tbd */,
+				CF361E381D2CE77300909174 /* libc++.tbd */,
+				CF361E361D2CE76500909174 /* ImageIO.framework */,
+				CF361E341D2CE75D00909174 /* CoreVideo.framework */,
+				CF361E321D2CE75500909174 /* CoreTelephony.framework */,
+				CF361E301D2CE74900909174 /* CoreMedia.framework */,
+				CF361E2E1D2CE73F00909174 /* CoreLocation.framework */,
+				CF361E2C1D2CE72F00909174 /* CoreGraphics.framework */,
+				CF361E2A1D2CE72600909174 /* CoreAudio.framework */,
+				CF361E281D2CE71D00909174 /* CFNetwork.framework */,
+				CF361E261D2CE71700909174 /* AVFoundation.framework */,
+				CF361E241D2CE71000909174 /* AudioToolbox.framework */,
+				CF361E221D2CE70700909174 /* AssetsLibrary.framework */,
+				CF361E1E1D2CE51800909174 /* libsqlite3.tbd */,
+				CF361E171D2CE2B900909174 /* RCDCustomerServiceViewController.h */,
+				CF361E181D2CE2B900909174 /* RCDCustomerServiceViewController.m */,
+				CF361DE71D2CE1F400909174 /* AppDelegate.h */,
+				CF361DE81D2CE1F400909174 /* AppDelegate.m */,
+				CF361DEA1D2CE1F400909174 /* ViewController.h */,
+				CF361DEB1D2CE1F400909174 /* ViewController.m */,
+				CF361DED1D2CE1F400909174 /* Main.storyboard */,
+				CF361DF01D2CE1F400909174 /* Assets.xcassets */,
+				CF361DF21D2CE1F400909174 /* LaunchScreen.storyboard */,
+				CF361DF51D2CE1F400909174 /* Info.plist */,
+				CF361DE41D2CE1F400909174 /* Supporting Files */,
+			);
+			path = LTCustomerService;
+			sourceTree = "<group>";
+		};
+		CF361DE41D2CE1F400909174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF361DE51D2CE1F400909174 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF361DFD1D2CE1F400909174 /* LTCustomerServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF361DFE1D2CE1F400909174 /* LTCustomerServiceTests.m */,
+				CF361E001D2CE1F400909174 /* Info.plist */,
+			);
+			path = LTCustomerServiceTests;
+			sourceTree = "<group>";
+		};
+		CF361E081D2CE1F400909174 /* LTCustomerServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF361E091D2CE1F400909174 /* LTCustomerServiceUITests.m */,
+				CF361E0B1D2CE1F400909174 /* Info.plist */,
+			);
+			path = LTCustomerServiceUITests;
+			sourceTree = "<group>";
+		};
+		CF361E4C1D2CE86300909174 /* Rong_Cloud_iOS_IMKit_SDK_v2_6_5_stable */ = {
+			isa = PBXGroup;
+			children = (
+				CF361E4D1D2CE86300909174 /* Emoji.plist */,
+				CF361E4E1D2CE86300909174 /* RongCloudKit.strings */,
+				CF361E501D2CE86300909174 /* libopencore-amrnb.a */,
+				CF361E511D2CE86300909174 /* RCConfig.plist */,
+				CF361E521D2CE86300909174 /* release_notes_ios.txt */,
+				CF361E531D2CE86300909174 /* RongCloud.bundle */,
+				CF361E541D2CE86300909174 /* RongIMKit.framework */,
+				CF361E551D2CE86300909174 /* RongIMLib.framework */,
+			);
+			path = Rong_Cloud_iOS_IMKit_SDK_v2_6_5_stable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF361DE01D2CE1F400909174 /* LTCustomerService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF361E0E1D2CE1F400909174 /* Build configuration list for PBXNativeTarget "LTCustomerService" */;
+			buildPhases = (
+				CF361DDD1D2CE1F400909174 /* Sources */,
+				CF361DDE1D2CE1F400909174 /* Frameworks */,
+				CF361DDF1D2CE1F400909174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTCustomerService;
+			productName = LTCustomerService;
+			productReference = CF361DE11D2CE1F400909174 /* LTCustomerService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF361DF91D2CE1F400909174 /* LTCustomerServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF361E111D2CE1F400909174 /* Build configuration list for PBXNativeTarget "LTCustomerServiceTests" */;
+			buildPhases = (
+				CF361DF61D2CE1F400909174 /* Sources */,
+				CF361DF71D2CE1F400909174 /* Frameworks */,
+				CF361DF81D2CE1F400909174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF361DFC1D2CE1F400909174 /* PBXTargetDependency */,
+			);
+			name = LTCustomerServiceTests;
+			productName = LTCustomerServiceTests;
+			productReference = CF361DFA1D2CE1F400909174 /* LTCustomerServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF361E041D2CE1F400909174 /* LTCustomerServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF361E141D2CE1F400909174 /* Build configuration list for PBXNativeTarget "LTCustomerServiceUITests" */;
+			buildPhases = (
+				CF361E011D2CE1F400909174 /* Sources */,
+				CF361E021D2CE1F400909174 /* Frameworks */,
+				CF361E031D2CE1F400909174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF361E071D2CE1F400909174 /* PBXTargetDependency */,
+			);
+			name = LTCustomerServiceUITests;
+			productName = LTCustomerServiceUITests;
+			productReference = CF361E051D2CE1F400909174 /* LTCustomerServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF361DD91D2CE1F400909174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Lt;
+				TargetAttributes = {
+					CF361DE01D2CE1F400909174 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CF361DF91D2CE1F400909174 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CF361DE01D2CE1F400909174;
+					};
+					CF361E041D2CE1F400909174 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CF361DE01D2CE1F400909174;
+					};
+				};
+			};
+			buildConfigurationList = CF361DDC1D2CE1F400909174 /* Build configuration list for PBXProject "LTCustomerService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = CF361DD81D2CE1F400909174;
+			productRefGroup = CF361DE21D2CE1F400909174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF361DE01D2CE1F400909174 /* LTCustomerService */,
+				CF361DF91D2CE1F400909174 /* LTCustomerServiceTests */,
+				CF361E041D2CE1F400909174 /* LTCustomerServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF361DDF1D2CE1F400909174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF361DF41D2CE1F400909174 /* LaunchScreen.storyboard in Resources */,
+				CF361E571D2CE86300909174 /* Emoji.plist in Resources */,
+				CF361DF11D2CE1F400909174 /* Assets.xcassets in Resources */,
+				CF361E5A1D2CE86300909174 /* RCConfig.plist in Resources */,
+				CF361E581D2CE86300909174 /* RongCloudKit.strings in Resources */,
+				CF361E5C1D2CE86300909174 /* RongCloud.bundle in Resources */,
+				CF361DEF1D2CE1F400909174 /* Main.storyboard in Resources */,
+				CF361E5B1D2CE86300909174 /* release_notes_ios.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF361DF81D2CE1F400909174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF361E031D2CE1F400909174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF361DDD1D2CE1F400909174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF361E191D2CE2B900909174 /* RCDCustomerServiceViewController.m in Sources */,
+				CF361DEC1D2CE1F400909174 /* ViewController.m in Sources */,
+				CF361DE91D2CE1F400909174 /* AppDelegate.m in Sources */,
+				CF361DE61D2CE1F400909174 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF361DF61D2CE1F400909174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF361DFF1D2CE1F400909174 /* LTCustomerServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF361E011D2CE1F400909174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF361E0A1D2CE1F400909174 /* LTCustomerServiceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF361DFC1D2CE1F400909174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF361DE01D2CE1F400909174 /* LTCustomerService */;
+			targetProxy = CF361DFB1D2CE1F400909174 /* PBXContainerItemProxy */;
+		};
+		CF361E071D2CE1F400909174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF361DE01D2CE1F400909174 /* LTCustomerService */;
+			targetProxy = CF361E061D2CE1F400909174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF361DED1D2CE1F400909174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF361DEE1D2CE1F400909174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF361DF21D2CE1F400909174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF361DF31D2CE1F400909174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF361E4E1D2CE86300909174 /* RongCloudKit.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF361E4F1D2CE86300909174 /* en */,
+				CF361E561D2CE86300909174 /* zh-Hans */,
+			);
+			name = RongCloudKit.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF361E0C1D2CE1F400909174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF361E0D1D2CE1F400909174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF361E0F1D2CE1F400909174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LTCustomerService",
+					"$(PROJECT_DIR)/LTCustomerService/Rong_Cloud_iOS_IMKit_SDK_v2_6_5_stable",
+				);
+				INFOPLIST_FILE = LTCustomerService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LTCustomerService/Rong_Cloud_iOS_IMKit_SDK_v2_6_5_stable",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweiba.LTCustomerService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF361E101D2CE1F400909174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LTCustomerService",
+					"$(PROJECT_DIR)/LTCustomerService/Rong_Cloud_iOS_IMKit_SDK_v2_6_5_stable",
+				);
+				INFOPLIST_FILE = LTCustomerService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LTCustomerService/Rong_Cloud_iOS_IMKit_SDK_v2_6_5_stable",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweiba.LTCustomerService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF361E121D2CE1F400909174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTCustomerServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweiba.LTCustomerServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTCustomerService.app/LTCustomerService";
+			};
+			name = Debug;
+		};
+		CF361E131D2CE1F400909174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTCustomerServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweiba.LTCustomerServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTCustomerService.app/LTCustomerService";
+			};
+			name = Release;
+		};
+		CF361E151D2CE1F400909174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTCustomerServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweiba.LTCustomerServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTCustomerService;
+			};
+			name = Debug;
+		};
+		CF361E161D2CE1F400909174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTCustomerServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweiba.LTCustomerServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTCustomerService;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF361DDC1D2CE1F400909174 /* Build configuration list for PBXProject "LTCustomerService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF361E0C1D2CE1F400909174 /* Debug */,
+				CF361E0D1D2CE1F400909174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF361E0E1D2CE1F400909174 /* Build configuration list for PBXNativeTarget "LTCustomerService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF361E0F1D2CE1F400909174 /* Debug */,
+				CF361E101D2CE1F400909174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF361E111D2CE1F400909174 /* Build configuration list for PBXNativeTarget "LTCustomerServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF361E121D2CE1F400909174 /* Debug */,
+				CF361E131D2CE1F400909174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF361E141D2CE1F400909174 /* Build configuration list for PBXNativeTarget "LTCustomerServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF361E151D2CE1F400909174 /* Debug */,
+				CF361E161D2CE1F400909174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF361DD91D2CE1F400909174 /* Project object */;
+}
